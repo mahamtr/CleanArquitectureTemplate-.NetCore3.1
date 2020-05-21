@@ -12,13 +12,17 @@
 #### Infraestructure Layer
  This layer implements EntityFramework, it already has a code first built DbContext template.
  It also includes a GenericRepository implementation of the interface from the Core Layer.
-##### TODO
-Implement UnitOfWork to include Multi-Transaction Commit
-
 
 
 
 #### Api Layer
  This includes a REST-API template with a already working JWT controller
+ 
+ 
+ ## TODO
+ ```
+Implement UnitOfWork to include Multi-Transaction Commit
+Add a UnitTest Project
+```
  
  
